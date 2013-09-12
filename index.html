@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>I'm Here!</title>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+		<!-- css -->
+		<link rel="stylesheet" type="text/css" href="css/base.css">
+		<link rel="stylesheet" type="text/css" href="css/headers.css">     
+		<link rel="stylesheet" type="text/css" href="css/buttons.css">
+		<link rel="stylesheet" type="text/css" href="css/toolbars.css">
+		<link rel="stylesheet" type="text/css" href="css/app.css">
+		<link rel="stylesheet" type="text/css" href="lib/leaflet/leaflet.css" />
+	</head>
+
+	<body>
+		<!-- Title bar -->
+		<section role="region">
+			<header>
+				<!-- Icon that will indicate whether you are online or offline - enabled if you are using offline/appcache (see above) 
+				<div id="online-status" title="Online"></div>-->
+				<menu type="toolbar">
+					<button id="install"><span class="icon icon-add">add</span></button>
+					<button id="reload"><span class="icon icon-update">update</span></button>
+					<button id="send-sms"><span class="icon icon-send">send sms</span></button>
+				</menu>
+				<h1>
+					I'm Here!
+				</h1>
+			</header>
+		</section>
+
+		<!-- Leaflet Maps -->
+		<section id="map"></section>
+		
+		
+		<!-- js -->
+		<script src="js/base.js"></script>
+		<script src="js/webapp.js"></script>
+		<script src="lib/leaflet/leaflet.js"></script>
+		<script src="js/load_leaflet.js"></script>	
+	</body>
+</html>

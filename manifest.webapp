@@ -1,0 +1,26 @@
+{
+    "version": "1.0",
+    "name": "I'm Here!",
+	"type" : "privileged",
+    "launch_path": "index.html",
+    "description": "Share your location instantly.",
+    "icons": {
+        "16": "/images/im-here-16px.png",
+        "32": "/images/im-here-32px.png",
+        "48": "/images/im-here-48px.png",
+        "60": "/images/im-here-60px.png",
+        "64": "/images/im-here-64px.png",
+        "128": "/images/im-here-128px.png"
+    },
+    "developer": {
+        "name": "Bojan Stanojević & Aleksandar Abu-Samra",
+        "url": "http://im-here-app.blogspot.com"
+    },
+    "installs_allowed_from": ["*"],
+    "default_locale": "en",
+    "permissions": {
+        "geolocation": {
+            "description" : "Marking out user location"
+        }
+    }
+}
