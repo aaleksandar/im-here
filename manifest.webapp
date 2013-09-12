@@ -14,7 +14,7 @@
     },
     "developer": {
         "name": "Bojan Stanojević & Aleksandar Abu-Samra",
-        "url": "http://im-here-app.blogspot.com"
+        "url": "https://github.com/aaleksandar/im-here"
     },
     "installs_allowed_from": ["*"],
     "default_locale": "en",
