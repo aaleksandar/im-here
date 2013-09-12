@@ -2,7 +2,7 @@
     "version": "1.0",
     "name": "I'm Here!",
 	"type" : "privileged",
-    "launch_path": "index.html",
+    "launch_path": "/index.html",
     "description": "Share your location instantly.",
     "icons": {
         "16": "/images/im-here-16px.png",
