@@ -10,7 +10,8 @@ Initial version. Locates, sends SMS.
 
 * [Firefox OS Boilerplate App](https://github.com/robnyman/Firefox-OS-Boilerplate-App)
 * [Leaflet Maps](http://leafletjs.com/)
-* [OpenStreetMap] (http://www.openstreetmap.org/)
+* [OpenStreetMap](http://www.openstreetmap.org/)
 
-## Contribution
-Design & UX by [Bojan Stanojević](https://plus.google.com/107923496609854257889)
+## Dev Team
+* [Bojan Stanojević](https://plus.google.com/107923496609854257889) - Design & UX
+* [Aleksandar Abu-Samra](http://aleksandar.abu-samra.com) - Buggy code
